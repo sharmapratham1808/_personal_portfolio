@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,174 +8,188 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a981e46315.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<div id="header">
-    <div class="container section">
-        <nav>
-           <h1 class="logo"><span>P</span>ratham.</h1>
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
-                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-            </ul>
-            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div id="section">
-            <div class="header-text">
-                <p>Web Developer</p>
-                <h1>hi, I'm <span>Pratham</span><br>Sharma from India</h1>
-            </div>
-            <div class="rightside">
-                <img src="1703952532598.jpg" width="100%">
-            </div>
-        </div>    
-    </div>
-</div>
-<!-- ------- About----------->
-
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="IMG_20200205_140424.jpg" alt="">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-tittle">about me</h1>
-                <p>I'M Pratham, currently pursuing my Bachelor of Technology degree . Thoughtful my academics journey, I have been passionate about exploring the dynamic world technology in web development and user experience design.</p>
-                
-                <div class="tab-titles">
-                    <p class="tab-links active-link"  onclick= "opentab('skills')" >Skills</p>
-                    <p class="tab-links" onclick=" opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick=" opentab('education')">Education</p>
+    <div id="header">
+        <div class="container section">
+            <nav>
+                <h1 class="logo"><span>P</span>ratham.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div id="section">
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>hi, I'm <span>Pratham</span><br>Sharma from India</h1>
                 </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>UI?UX</span><br>Designer Web/App interfaces </li> 
-                        <li><span>Web Development</span><br>Web app Development </li> 
-                        <li><span>App Development</span><br>uilding Android/ios apps </li> 
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute </li> 
-                        <li><span>2019-2021</span><br>Team lead at starapp llc. </li> 
-                        <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd. </li> 
-                        <li><span>201-201</span><br>Internship at ekart e commerce. </li> 
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2016</span><br>UI/UX Design Training atET Institute </li> 
-                        <li><span>2016</span><br>MBA from MIT bangalore </li> 
-                        <li><span>2014</span><br>BBA from ISM Bangalore </li> 
-                    </ul>
-                </div>
-               
-            </div>
-        </div>
-    </div>
-</div>
-<!-- -------- services-------- -->
- <div id="services">
-    <div class="container">
-        <h1 class="sub-tittle">my services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-brands fa-github"></i>
-                <h2>Git Hub</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nesciunt a debitis atque minima ratione?</p>
-                <a href="https://github.com/sharmapratham1808" target="_blank">Learn more</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-html5"></i>
-                <h2>HTML/CSS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nesciunt a debitis atque minima ratione?</p>
-                <a href="#" target="_blank">Learn more</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-js"></i>
-                <h2>JavaScript</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nesciunt a debitis atque minima ratione?</p>
-                <a href="#" target="_blank">Learn more</a>
-            </div>
-        </div>
-    </div>
- </div>
-
- <!-- -----------portfolio----------- -->
-
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-tittle">my work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="work-1.png">
-                <div class="layer">
-                    <h3>Expense Tracker</h3>
-                    <p>The Application that helps to keep an accurate record of your money inflow and outflow.</p>
-                    <a href="https://lnkd.in/gHbG8ssv" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="work-2.png">
-                <div class="layer">
-                    <h3>Music App</h3>
-                    <p>The app connect you the talented people around the world. Download it from play store.</p>
-                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="work-3.png">
-                <div class="layer">
-                    <h3>Online shopping App</h3>
-                    <p>The app connect you the talented people around the world. Download it from play store.</p>
-                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <div class="rightside">
+                    <img src="1703952532598.jpg" width="100%">
                 </div>
             </div>
         </div>
-
-        <a href="#" class="btn">See more</a>
     </div>
-</div>
+    <!-- ------- About----------->
 
-<!-- ----------contact-------- -->
- <div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-tittle">Contact Me</h1>
-                <p> <i class="fa-solid fa-paper-plane"></i>sharmapratham1810@gmail.com</p>
-                <p> <i class="fa-solid fa-square-phone"></i>7052068175</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://x.com/sharmadx1592"><i class="fa-brands fa-twitter-square"></i></a>
-                    <a href="https://www.instagram.com/__pratham.sharma__/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/pratham-sharma-780286297/"><i class="fa-brands fa-linkedin"></i></a>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_20200205_140424.jpg" alt="">
                 </div>
-                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">about me</h1>
+                    <p>I'M Pratham, currently pursuing my Bachelor of Technology degree . Thoughtful my academics
+                        journey, I have been passionate about exploring the dynamic world technology in web development
+                        and user experience <br><br>
+                        I'm not just a developer, I'm a problem solver and a creative thinker. I enjoy collaborating
+                        with clients to understand their needs and deliver solutions that exceed their expectations.<br><br>
+                        In my free time, I enjoy participating in hackathons and contributing to open-source projects.
+                        This allows me to stay up-to-date with the latest technologies and connect with other
+                        developers.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick=" opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick=" opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designer Web/App interfaces </li>
+                            <li><span>Web Development</span><br>Web app Development </li>
+                            <li><span>Language</span><br>HTML/CSS/Javascript </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute </li>
+                            <li><span>2019-2021</span><br>Team lead at starapp llc. </li>
+                            <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd. </li>
+                            <li><span>201-201</span><br>Internship at ekart e commerce. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Pursuing B.Tech from AITD Kanpur </li>
+                            <li><span>2022</span><br>12th from WMIS Kanpur </li>
+                            <li><span>2020</span><br>10th from WMIS Kanpur </li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
-    <div class="copyright">
-        <p>copyright &copy Pratham. Made with <i class="fa-solid fa-heart"></i> by Pratham Sharma </p>
+    <!-- -------- services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">my services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Git Hub</h2>
+                    <p>This is my personal GitHub account. All code is available as free source.</p>
+                    <a href="https://github.com/sharmapratham1808" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML/CSS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nesciunt a debitis atque minima
+                        ratione?</p>
+                    <a href="#" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JavaScript</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nesciunt a debitis atque minima
+                        ratione?</p>
+                    <a href="#" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
     </div>
- </div>
+
+    <!-- -----------portfolio----------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">my work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Expense Tracker</h3>
+                        <p>The Application that helps to keep an accurate record of your money inflow and outflow.</p>
+                        <a href="https://lnkd.in/gHbG8ssv" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connect you the talented people around the world. Download it from play store.</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connect you the talented people around the world. Download it from play store.</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------contact-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>sharmapratham1810@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>7052068175</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/sharmadx1592"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/__pratham.sharma__/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pratham-sharma-780286297/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy Pratham. Made with <i class="fa-solid fa-heart"></i> by Pratham Sharma </p>
+        </div>
+    </div>
 
 
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
