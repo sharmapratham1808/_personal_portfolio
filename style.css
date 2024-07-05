@@ -422,6 +422,10 @@ nav .fa-solid {
 
 @media only screen and (max-width:637px) {
 
+    nav ul li a:hover {
+        color: #EBEFFF;
+    }
+
     #section {
         border: 2px solid red;
         margin-top: 60px;
@@ -525,12 +529,20 @@ nav .fa-solid {
     .header-text h1 {
         font-size: 35px;
     }
+    #section{
+        /* border: 2px solid red; */
+        margin-top: 60px;
+    }
     
 }
 
 @media only screen and (max-width:833px) {
     .header-text h1 {
         font-size: 30px;
+    }
+    #section{
+        /* border: 2px solid red; */
+        margin-top: 60px;
     }
     
 }
@@ -539,11 +551,19 @@ nav .fa-solid {
     .header-text h1 {
         font-size: 25px;
     }
+    #section{
+        /* border: 2px solid red; */
+        margin-top: 60px;
+    }
 }
 
 @media only screen and ( max-width:610px){
     .header-text h1{
         font-size: 20px;
+    }
+    #section{
+        /* border: 2px solid red; */
+        margin-top: 100px;
     }
 }
 @media only screen and ( max-width:560px){
@@ -552,6 +572,65 @@ nav .fa-solid {
     }
     .header-text p{
         font-size: 26px;
+    }
+}
+@media only screen and ( max-width:498px){
+    .header-text h1{
+        font-size: 18px;
+    }
+    .header-text p{
+        font-size: 22px;
+    }
+    #header{
+        height: 80vh;
+    }
+}
+@media only screen and ( max-width:462px){
+    .header-text h1{
+        font-size: 15px;
+    }
+    .header-text p{
+        font-size: 20px;
+    }
+    /* #header{
+        height: 80vh;
+    } */
+}
+
+@media only screen and ( max-width:376px){
+    .header-text h1{
+        font-size: 14px;
+    }
+    .header-text p{
+        font-size: 18px;
+    }
+    #header{
+        /* border: 2px solid red; */
+        height: 70vh;
+    }
+}
+@media only screen and ( max-width:321px){
+    .header-text h1{
+        font-size: 12px;
+    }
+    .header-text p{
+        font-size: 15px;
+    }
+    #header{
+        /* border: 2px solid red; */
+        height: 70vh;
+    }
+}
+@media only screen and ( max-width:391px){
+    .header-text h1{
+        font-size: 15px;
+    }
+    .header-text p{
+        font-size: 16px;
+    }
+    #header{
+        /* border: 2px solid red; */
+        height: 60vh;
     }
 }
 
