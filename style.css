@@ -427,8 +427,14 @@ nav .fa-solid {
     }
 
     #section {
-        border: 2px solid red;
+        /* border: 2px solid red; */
+        padding-top: 90px;
         margin-top: 60px;
+
+    }
+    #header{
+        max-height: 80vh;
+        /* border: 2px solid red; */
     }
 
     .header-text {
