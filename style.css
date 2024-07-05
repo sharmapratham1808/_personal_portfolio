@@ -420,21 +420,24 @@ nav .fa-solid {
     display: none;
 }
 
-@media only screen and (max-width:637px) {
+@media only screen and (max-width:600px) {
 
     nav ul li a:hover {
         color: #EBEFFF;
     }
-
-    #section {
-        /* border: 2px solid red; */
-        padding-top: 90px;
+    #section{
+        display: flex;
+        flex-direction: column-reverse;
         margin-top: 60px;
-
-    }
-    #header{
-        max-height: 80vh;
-        /* border: 2px solid red; */
+        .header-text{
+           p{
+                /* border: 2px solid red; */
+                text-align: center;
+           }
+           h1{
+            text-align: center;
+           }
+        }
     }
 
     .header-text {
@@ -512,133 +515,6 @@ nav .fa-solid {
     }
 }
 
-@media only screen and (max-width:1399px) {
-    .header-text h1 {
-        font-size: 50px;
-    }
-}
-
-@media only screen and (max-width:1173px) {
-    .header-text h1 {
-        font-size: 45px;
-    }
-}
-
-@media only screen and (max-width:1059px) {
-    .header-text h1 {
-        font-size: 40px;
-    }
-    
-}
-
-@media only screen and (max-width:946px) {
-    .header-text h1 {
-        font-size: 35px;
-    }
-    #section{
-        /* border: 2px solid red; */
-        margin-top: 60px;
-    }
-    
-}
-
-@media only screen and (max-width:833px) {
-    .header-text h1 {
-        font-size: 30px;
-    }
-    #section{
-        /* border: 2px solid red; */
-        margin-top: 60px;
-    }
-    
-}
-
-@media only screen and (max-width:720px) {
-    .header-text h1 {
-        font-size: 25px;
-    }
-    #section{
-        /* border: 2px solid red; */
-        margin-top: 60px;
-    }
-}
-
-@media only screen and ( max-width:610px){
-    .header-text h1{
-        font-size: 20px;
-    }
-    #section{
-        /* border: 2px solid red; */
-        margin-top: 100px;
-    }
-}
-@media only screen and ( max-width:560px){
-    .header-text h1{
-        font-size: 18px;
-    }
-    .header-text p{
-        font-size: 26px;
-    }
-}
-@media only screen and ( max-width:498px){
-    .header-text h1{
-        font-size: 18px;
-    }
-    .header-text p{
-        font-size: 22px;
-    }
-    #header{
-        height: 80vh;
-    }
-}
-@media only screen and ( max-width:462px){
-    .header-text h1{
-        font-size: 15px;
-    }
-    .header-text p{
-        font-size: 20px;
-    }
-    /* #header{
-        height: 80vh;
-    } */
-}
-
-@media only screen and ( max-width:376px){
-    .header-text h1{
-        font-size: 14px;
-    }
-    .header-text p{
-        font-size: 18px;
-    }
-    #header{
-        /* border: 2px solid red; */
-        height: 70vh;
-    }
-}
-@media only screen and ( max-width:321px){
-    .header-text h1{
-        font-size: 12px;
-    }
-    .header-text p{
-        font-size: 15px;
-    }
-    #header{
-        /* border: 2px solid red; */
-        height: 70vh;
-    }
-}
-@media only screen and ( max-width:391px){
-    .header-text h1{
-        font-size: 15px;
-    }
-    .header-text p{
-        font-size: 16px;
-    }
-    #header{
-        /* border: 2px solid red; */
-        height: 60vh;
-    }
-}
 
 #msg {
     color: #61b752;
